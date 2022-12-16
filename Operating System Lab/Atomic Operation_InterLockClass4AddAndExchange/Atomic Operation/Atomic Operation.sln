@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomic Operation", "Atomic Operation\Atomic Operation.csproj", "{4E27AC5A-DF7F-447B-99F9-1F609E1D1629}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E27AC5A-DF7F-447B-99F9-1F609E1D1629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E27AC5A-DF7F-447B-99F9-1F609E1D1629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E27AC5A-DF7F-447B-99F9-1F609E1D1629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E27AC5A-DF7F-447B-99F9-1F609E1D1629}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

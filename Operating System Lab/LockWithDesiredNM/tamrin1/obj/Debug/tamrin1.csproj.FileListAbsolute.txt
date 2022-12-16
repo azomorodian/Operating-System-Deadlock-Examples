@@ -1,0 +1,8 @@
+C:\Users\PCH\Desktop\OSLab\C#OSLab\LockWithDesiredNM\tamrin1\bin\Debug\tamrin1.exe
+C:\Users\PCH\Desktop\OSLab\C#OSLab\LockWithDesiredNM\tamrin1\bin\Debug\tamrin1.pdb
+C:\Users\PCH\Desktop\OSLab\C#OSLab\LockWithDesiredNM\tamrin1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\PCH\Desktop\OSLab\C#OSLab\LockWithDesiredNM\tamrin1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\PCH\Desktop\OSLab\C#OSLab\LockWithDesiredNM\tamrin1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\PCH\Desktop\OSLab\C#OSLab\LockWithDesiredNM\tamrin1\obj\Debug\tamrin1.csproj.GenerateResource.Cache
+C:\Users\PCH\Desktop\OSLab\C#OSLab\LockWithDesiredNM\tamrin1\obj\Debug\tamrin1.exe
+C:\Users\PCH\Desktop\OSLab\C#OSLab\LockWithDesiredNM\tamrin1\obj\Debug\tamrin1.pdb

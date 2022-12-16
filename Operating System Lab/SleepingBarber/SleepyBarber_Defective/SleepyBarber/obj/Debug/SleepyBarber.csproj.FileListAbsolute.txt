@@ -1,0 +1,16 @@
+C:\Users\Zhoobin\Desktop\SleepyBarber\SleepyBarber\bin\Debug\SleepyBarber.exe
+C:\Users\Zhoobin\Desktop\SleepyBarber\SleepyBarber\bin\Debug\SleepyBarber.pdb
+C:\Users\Zhoobin\Desktop\SleepyBarber\SleepyBarber\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Zhoobin\Desktop\SleepyBarber\SleepyBarber\obj\Debug\SleepyBarber.Form1.resources
+C:\Users\Zhoobin\Desktop\SleepyBarber\SleepyBarber\obj\Debug\SleepyBarber.Properties.Resources.resources
+C:\Users\Zhoobin\Desktop\SleepyBarber\SleepyBarber\obj\Debug\SleepyBarber.csproj.GenerateResource.Cache
+C:\Users\Zhoobin\Desktop\SleepyBarber\SleepyBarber\obj\Debug\SleepyBarber.exe
+C:\Users\Zhoobin\Desktop\SleepyBarber\SleepyBarber\obj\Debug\SleepyBarber.pdb
+C:\Users\PCH\Desktop\OSLab\C#OSLab\SleepingBarber\SleepyBarber_Defective\SleepyBarber\obj\Debug\SleepyBarber.exe
+C:\Users\PCH\Desktop\OSLab\C#OSLab\SleepingBarber\SleepyBarber_Defective\SleepyBarber\obj\Debug\SleepyBarber.pdb
+C:\Users\PCH\Desktop\OSLab\C#OSLab\SleepingBarber\SleepyBarber_Defective\SleepyBarber\bin\Debug\SleepyBarber.exe
+C:\Users\PCH\Desktop\OSLab\C#OSLab\SleepingBarber\SleepyBarber_Defective\SleepyBarber\bin\Debug\SleepyBarber.pdb
+C:\Users\PCH\Desktop\OSLab\C#OSLab\SleepingBarber\SleepyBarber_Defective\SleepyBarber\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\PCH\Desktop\OSLab\C#OSLab\SleepingBarber\SleepyBarber_Defective\SleepyBarber\obj\Debug\SleepyBarber.Form1.resources
+C:\Users\PCH\Desktop\OSLab\C#OSLab\SleepingBarber\SleepyBarber_Defective\SleepyBarber\obj\Debug\SleepyBarber.Properties.Resources.resources
+C:\Users\PCH\Desktop\OSLab\C#OSLab\SleepingBarber\SleepyBarber_Defective\SleepyBarber\obj\Debug\SleepyBarber.csproj.GenerateResource.Cache

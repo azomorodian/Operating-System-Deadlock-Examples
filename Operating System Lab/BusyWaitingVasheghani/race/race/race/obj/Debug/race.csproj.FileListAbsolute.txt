@@ -1,0 +1,16 @@
+C:\Users\Zhoobin\Desktop\PetersonVasheghani\race\race\race\obj\Debug\race.exe
+C:\Users\Zhoobin\Desktop\PetersonVasheghani\race\race\race\obj\Debug\race.pdb
+C:\Users\Zhoobin\Desktop\PetersonVasheghani\race\race\race\bin\Debug\race.exe
+C:\Users\Zhoobin\Desktop\PetersonVasheghani\race\race\race\bin\Debug\race.pdb
+C:\Users\Zhoobin\Desktop\PetersonVasheghani\race\race\race\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Zhoobin\Desktop\PetersonVasheghani\race\race\race\obj\Debug\race.Form1.resources
+C:\Users\Zhoobin\Desktop\PetersonVasheghani\race\race\race\obj\Debug\race.Properties.Resources.resources
+C:\Users\Zhoobin\Desktop\PetersonVasheghani\race\race\race\obj\Debug\race.csproj.GenerateResource.Cache
+C:\Users\PCH\Desktop\OSLab\C#OSLab\BusyWaitingVasheghani\race\race\race\obj\Debug\race.exe
+C:\Users\PCH\Desktop\OSLab\C#OSLab\BusyWaitingVasheghani\race\race\race\obj\Debug\race.pdb
+C:\Users\PCH\Desktop\OSLab\C#OSLab\BusyWaitingVasheghani\race\race\race\bin\Debug\race.exe
+C:\Users\PCH\Desktop\OSLab\C#OSLab\BusyWaitingVasheghani\race\race\race\bin\Debug\race.pdb
+C:\Users\PCH\Desktop\OSLab\C#OSLab\BusyWaitingVasheghani\race\race\race\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\PCH\Desktop\OSLab\C#OSLab\BusyWaitingVasheghani\race\race\race\obj\Debug\race.Form1.resources
+C:\Users\PCH\Desktop\OSLab\C#OSLab\BusyWaitingVasheghani\race\race\race\obj\Debug\race.Properties.Resources.resources
+C:\Users\PCH\Desktop\OSLab\C#OSLab\BusyWaitingVasheghani\race\race\race\obj\Debug\race.csproj.GenerateResource.Cache

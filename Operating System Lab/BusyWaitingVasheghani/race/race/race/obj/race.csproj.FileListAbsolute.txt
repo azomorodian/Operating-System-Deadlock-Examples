@@ -1,0 +1,16 @@
+C:\Documents and Settings\u01\My Documents\Visual Studio 2005\Projects\race\race\bin\Debug\race.exe
+C:\Documents and Settings\u01\My Documents\Visual Studio 2005\Projects\race\race\bin\Debug\race.pdb
+C:\Documents and Settings\u01\My Documents\Visual Studio 2005\Projects\race\race\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\u01\My Documents\Visual Studio 2005\Projects\race\race\obj\Debug\race.Form1.resources
+C:\Documents and Settings\u01\My Documents\Visual Studio 2005\Projects\race\race\obj\Debug\race.Properties.Resources.resources
+C:\Documents and Settings\u01\My Documents\Visual Studio 2005\Projects\race\race\obj\Debug\race.csproj.GenerateResource.Cache
+C:\Documents and Settings\u01\My Documents\Visual Studio 2005\Projects\race\race\obj\Debug\race.exe
+C:\Documents and Settings\u01\My Documents\Visual Studio 2005\Projects\race\race\obj\Debug\race.pdb
+C:\Documents and Settings\u01\Desktop\race\race\obj\Debug\race.exe
+C:\Documents and Settings\u01\Desktop\race\race\obj\Debug\race.pdb
+C:\Documents and Settings\u01\Desktop\race\race\bin\Debug\race.exe
+C:\Documents and Settings\u01\Desktop\race\race\bin\Debug\race.pdb
+C:\Documents and Settings\u01\Desktop\race\race\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\u01\Desktop\race\race\obj\Debug\race.Form1.resources
+C:\Documents and Settings\u01\Desktop\race\race\obj\Debug\race.Properties.Resources.resources
+C:\Documents and Settings\u01\Desktop\race\race\obj\Debug\race.csproj.GenerateResource.Cache

@@ -1,0 +1,121 @@
+unit UnitThreadPhilosophor;
+
+interface
+
+uses
+  Classes;
+
+type
+  TTheardPhilosopher = class(TThread)
+  public
+    ID: Integer;
+  private
+    { Private declarations }
+  protected
+    procedure Execute; override;
+  end;
+
+implementation
+
+uses UnitMain, SysUtils, Windows, Math;
+
+{ Important: Methods and properties of objects in visual components can only be
+  used in a method called using Synchronize, for example,
+
+      Synchronize(UpdateCaption);
+
+  and UpdateCaption could look like,
+
+    procedure TTheardPhilosopher.UpdateCaption;
+    begin
+      Form1.Caption := 'Updated in a thread';
+    end; }
+
+{ TTheardPhilosopher }
+
+procedure TTheardPhilosopher.Execute;
+begin
+  FreeOnTerminate:= True;
+  while not endProgram do begin
+    //think:
+    sleep(Random(2));
+
+    //Down(Mutex)
+    if WaitForSingleObject(mutex, INFINITE) = WAIT_OBJECT_0 then begin
+      sleep(random(2));
+      state[ID]:= 1;
+      sleep(random(2));
+      //Test:
+      if (state[(ID-2+5) mod 5 + 1]<>2) and (state[ID mod 5 + 1]<>2) then begin
+        sleep(random(2));
+        state[ID]:= 2;
+        sleep(random(2));
+        ReleaseSemaphore(tCtrl[ID], 1, nil);
+        sleep(random(2));
+      end;
+      sleep(random(2));
+    end;
+    sleep(random(2));
+    ReleaseSemaphore(mutex, 1, nil);
+    sleep(random(2));
+    //Down(Semaphore[ID]):
+    if WaitForSingleObject(tCtrl[ID], INFINITE) = WAIT_OBJECT_0 then begin
+      sleep(random(2));
+    end;
+    sleep(random(2));
+
+    //Take first Fork:
+    while fork[ID].Brush.Color <> 16777215 do
+      sleep(random(2)); //Wait Until the Fork is Released.
+    sleep(random(2));
+    fork[ID].Brush.Color:= plate[ID].Brush.Color; //The fork is seized.
+    sleep(random(2));
+
+    //Take Another Fork:
+    while fork[(ID-2+5) mod 5 + 1].Brush.Color <> 16777215 do
+      sleep(random(2)); //Wait Until the Fork is Released.
+    sleep(random(2));
+    fork[(ID-2+5) mod 5 + 1].Brush.Color:= plate[ID].Brush.Color; //The fork is seized.
+    sleep(random(2));
+
+    //Eat:
+    sleep(Random(2));
+
+    //Release First Fork
+    fork[ID].Brush.Color:= 16777215;
+    sleep(random(2));
+
+    //Release Another Fork
+    fork[(ID-2+5) mod 5 + 1].Brush.Color:= 16777215;
+    sleep(random(2));
+
+    //Down(mutex)
+    If WaitForSingleObject(mutex, INFINITE) = WAIT_OBJECT_0 then begin
+      sleep(random(2));
+      state[ID]:= 0;
+      sleep(random(2));
+      //Test Left:
+      if (state[(ID-2+5) mod 5 + 1] = 1) and (state[(ID-3+5) mod 5 + 1] <> 2) then begin
+        sleep(random(2));
+        state[(ID-2+5) mod 5 + 1]:= 2;
+        sleep(random(2));
+        ReleaseSemaphore(tCtrl[(ID-2+5) mod 5 + 1], 1, nil);
+        sleep(random(2));
+      end;
+      sleep(random(2));
+      //Test Right:
+      if (state[ID mod 5 + 1] = 1) and (state[(ID+1) mod 5 + 1] <> 2) then begin
+        sleep(random(2));
+        state[ID mod 5 + 1]:= 2;
+        sleep(random(2));
+        ReleaseSemaphore(tCtrl[ID mod 5 + 1], 1, nil);
+        sleep(random(2));
+      end;
+      sleep(random(2));
+    end;
+    ReleaseSemaphore(MUTEX, 1, nil);
+  end;
+  inc(diedPhilosopher);
+end;
+
+end.
